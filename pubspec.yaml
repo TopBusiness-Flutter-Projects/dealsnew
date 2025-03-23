@@ -1,0 +1,114 @@
+name: top_sale
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+23
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  # ! main packages
+  dio: ^5.4.3+1
+  flutter_bloc: ^8.1.6
+  get_it: ^7.6.7
+  dartz: ^0.10.1
+  get: ^4.6.6
+  easy_localization: ^3.0.7
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.3
+  permission_handler: ^11.3.1
+  page_transition: ^2.1.0
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.3.1
+  path_provider: ^2.1.3
+  flutter_launcher_icons: ^0.14.1
+  image_picker: ^0.8.7+5
+  smooth_page_indicator: ^1.2.0+3
+  flutter_screenutil: ^5.9.3
+  flutter_local_notifications: ^17.1.2
+  dropdown_button2: ^2.3.9
+  auto_size_text: ^3.0.0
+  easy_debounce: ^2.0.3
+  flutter_stepindicator: ^0.0.2
+  ai_barcode_scanner:
+  flutter_staggered_grid_view: ^0.7.0
+  # floating_bottom_navigation_bar: ^1.5.2
+  flutter_zoom_drawer: ^3.0.4+1
+  salomon_bottom_bar: ^3.3.2
+  url_launcher: ^6.3.1
+  odoo_rpc: ^0.5.4 # fer session don't change the version ^0.5.4
+  share_plus: ^10.0.0
+  # share:
+  package_info_plus: ^8.0.2
+ 
+  geolocator: ^12.0.0
+  geocoding:
+  http: ^1.2.2
+  printing: ^5.6.0
+  location: ^6.0.2
+  syncfusion_flutter_pdfviewer: ^24.2.9
+  network_info_plus:
+  google_maps_flutter: 
+  table_calendar: ^3.0.9
+  connectivity_plus: 
+  flutter_widget_from_html: ^0.15.3
+  timezone: ^0.9.4
+  flutter_timezone: 
+ 
+  # package_info_plus: ^8.0.3
+  # share_plus: ^10.0.3
+
+  # ! main packages
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  background_color: "#ffffff"
+  image_path: "assets/images/appicon.png"
+  adaptive_icon_foreground: "assets/images/appicon.png"
+  adaptive_icon_background: "#ffffff"
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lang/
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Jost.ttf
+    - family: cairo
+      fonts:
+        - asset: assets/fonts/cairo.ttf
